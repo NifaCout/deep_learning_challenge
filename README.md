@@ -1,5 +1,5 @@
 # deep_learning_challenge
- Deep learning 
+Deep learning 
 Introduction: 
 Neural Network Model Analysis for Alphabet Soup
 Alphabet Soup is a nonprofit foundation dedicated to supporting various organizations with funding. Over the years, they have supported more than 34,000 organizations, to ensure that the funds are used efficiently and produce the desired impact, there's a pressing requirement to predict which organizations are more likely to succeed in their ventures when supported. 
@@ -35,6 +35,6 @@ Contains 3 hidden layers and 1 output layer:
         number_input_features neurons with ReLU activation.
         Output layer: 1 neuron with Sigmoid activation (for binary classification).
 Optimizer: Adam with a learning rate of 0.001. Callbacks: Early stopping based on validation loss with  patience of 10 epochs. Epochs: Not specified due to early stopping callback and Batch size: 32
-Performance Metrics: Test data evaluation:Loss: 0.5765401721000671.Accuracy: 72.43148684501648%.
+Performance Metrics: Test data evaluation:Loss: 0.57%.Accuracy: 72.43%.
 
 The three models each trying to optimize the performance of a neural network on the dataset. The differences in performance metrics among them are subtle. Model 3: L2 regularization techniques and dropout helped eliminate overfitting from the Second Model.
